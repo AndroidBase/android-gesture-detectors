@@ -117,6 +117,7 @@ public class TouchActivity extends Activity implements OnTouchListener {
 			// Don't let the object get too small or too large.
 			mScaleFactor = Math.max(0.1f, Math.min(mScaleFactor, 10.0f)); 
 
+
 			return true;
 		}
 	}
